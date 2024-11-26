@@ -176,7 +176,7 @@ sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*persistent_peers *=.*/persistent_peer
 ```
 
 
-#Update Version V5.3.4 date 25/11/2024
+# Update Version V5.3.4 date 25/11/2024
 
 ```bash
 cd $HOME
@@ -209,7 +209,7 @@ echo "{\"pubkey\":{\"@type\":\"/cosmos.crypto.ed25519.PubKey\",\"key\":\"$(zenro
 
 ```
 
-#Create a validator using the JSON configuration
+# Create a validator using the JSON configuration
 
 ```bash
 zenrockd tx staking create-validator validator.json \
